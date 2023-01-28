@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+      body {
+        background-color: yellow;
+      }
+      /* Add styles for small screens */
+      @media only screen and (max-width: 600px) {
+        /* Change font-size for header */
+        header h1 {
+          font-size: 20px;
+        }
+        /* Make images responsive */
+        img {
+          width: 100%;
+          height: auto;
+        }
+        /* Stack navigation items vertically */
+        nav ul {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>I am the fucking batman</h1>
+    </header>
+    <img src="images/image.jpeg" alt="Image" width="100%" height="auto">
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>About</h2>
+      <p>All men have limits. They learn what they are and learn not to exceed them. I ignore mine</p>
+    </main>
+    <footer>
+      <p>Copyright © 2021 My Name</p>
+    </footer>
+  </body>
+</html>
